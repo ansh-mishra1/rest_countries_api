@@ -1,0 +1,100 @@
+.countryDetailCantainer{
+    margin: 48px;
+}
+.backBtn span{
+    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.25);
+    padding: 6px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.detailBox{
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+}
+.flagBox{
+    max-width: 500px;
+}
+.flagBox img{
+    width: 100%;
+    border: 0.5px solid #999;
+}
+.textBox{
+    align-self: center;
+}
+.textBox h1{
+    margin-bottom: 24px;
+}
+.textBox .textDetail{
+    display: flex;
+    gap: 64px;
+}
+.textDetail p{
+    margin-bottom: 6px;
+}
+.countryBorder{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+}
+/* .countryBorder p{
+    display: inline;
+} */
+.countryBorder .linkTags{
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+.countryBorder span{
+    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.25);
+    padding-block: 4px;
+    padding-inline: 16px;
+    border-radius: 4px;
+    margin-inline: 6px;
+}
+@media(max-width : 1168px){
+    .countryDetailCantainer{
+        margin: 32px;
+    }
+    .detailBox{
+        gap: 24px;
+    }
+    .flagBox{
+        flex-shrink: 2;
+    }   
+    .textDetail p{
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+    .textBox .textDetail{
+        gap: 24px;
+    }
+}
+@media(max-width : 968px){
+    .detailBox{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .textBox{
+        align-self: flex-start;
+    }
+    .textDetail p{
+        margin-bottom: 6px;
+        font-size: 1em;
+    }
+    .textBox .textDetail{
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+@media(max-width: 568px){
+    .countryDetailCantainer{
+        margin: 24px;
+    }
+    .textDetail p{
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+
+}

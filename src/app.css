@@ -1,0 +1,9 @@
+.dark{
+    background-color: hsl(207, 26%, 17%) ; 
+    color: white;
+    /* --element--color: hsl(209, 23%, 22%); */
+}
+.containtColor{
+    background-color: hsl(209, 23%, 22%) !important;
+    color: white !important;
+}
